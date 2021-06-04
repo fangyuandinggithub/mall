@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.4.3)
+  - HandyJSON (5.0.2)
+  - MJRefresh (3.4.3)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - MJRefresh
+  - Moya
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - MJRefresh
+    - Moya
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: ad2046e7a225114c960973fbf2ea9ba0779318fe
+
+COCOAPODS: 1.10.1

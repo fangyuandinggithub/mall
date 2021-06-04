@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3333149A204BE27F67466759 /* Pods_mall_mallUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F652DCB74BC0A3055745B208 /* Pods_mall_mallUITests.framework */; };
+		54027F0A3B4E0F6D77D450EB /* Pods_mallTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8235C14432FC6E21CEEFFF84 /* Pods_mallTests.framework */; };
+		55754966ADAD1C10416F98AB /* Pods_mall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D5ABB035D7DC241F55EFF9 /* Pods_mall.framework */; };
 		C6968CE5265F9573009C7C4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968CE4265F9573009C7C4B /* AppDelegate.swift */; };
 		C6968CE7265F9573009C7C4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968CE6265F9573009C7C4B /* SceneDelegate.swift */; };
 		C6968CE9265F9573009C7C4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968CE8265F9573009C7C4B /* ViewController.swift */; };
@@ -16,6 +19,33 @@
 		C6968CF4265F9577009C7C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6968CF2265F9577009C7C4B /* LaunchScreen.storyboard */; };
 		C6968CFF265F9578009C7C4B /* mallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968CFE265F9578009C7C4B /* mallTests.swift */; };
 		C6968D0A265F9578009C7C4B /* mallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D09265F9578009C7C4B /* mallUITests.swift */; };
+		C6968D26265F993B009C7C4B /* RYJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D25265F993B009C7C4B /* RYJTabBarController.swift */; };
+		C6968D2C265F9FA1009C7C4B /* RYJBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D2B265F9FA1009C7C4B /* RYJBaseViewController.swift */; };
+		C6968D35265FA170009C7C4B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D34265FA170009C7C4B /* UIColorExtension.swift */; };
+		C6968D3A265FA3FA009C7C4B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D39265FA3FA009C7C4B /* Global.swift */; };
+		C6968D4E265FA86F009C7C4B /* RYJCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D4D265FA86F009C7C4B /* RYJCartViewController.swift */; };
+		C6968D67265FAEEB009C7C4B /* RYJLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D66265FAEEB009C7C4B /* RYJLikeViewController.swift */; };
+		C6968D7A265FB07E009C7C4B /* RYJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6968D79265FB07E009C7C4B /* RYJHomeViewController.swift */; };
+		C6D2AC2326608B38004E2D2F /* LFFPraiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC2226608B38004E2D2F /* LFFPraiseButton.swift */; };
+		C6D2AC2826608C2C004E2D2F /* RYJHomeBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC2726608C2C004E2D2F /* RYJHomeBannerView.swift */; };
+		C6D2AC2D26608E3E004E2D2F /* RYJHomeLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC2C26608E3D004E2D2F /* RYJHomeLikeView.swift */; };
+		C6D2AC3226608EBE004E2D2F /* RYJHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC3126608EBE004E2D2F /* RYJHomeModel.swift */; };
+		C6D2AC3926609104004E2D2F /* RYJDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC3826609104004E2D2F /* RYJDetailViewController.swift */; };
+		C6D2AC4426609510004E2D2F /* RYJDetailDescribeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC4226609510004E2D2F /* RYJDetailDescribeView.swift */; };
+		C6D2AC4526609510004E2D2F /* RYJDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC4326609510004E2D2F /* RYJDetailHeaderView.swift */; };
+		C6D2AC4B26609A85004E2D2F /* RYJShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC4A26609A85004E2D2F /* RYJShopModel.swift */; };
+		C6D2AC5026609B20004E2D2F /* RYJShopAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC4F26609B20004E2D2F /* RYJShopAPI.swift */; };
+		C6D2AC5626609F11004E2D2F /* RYJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC5526609F11004E2D2F /* RYJRefresh.swift */; };
+		C6D2AC642660C7BE004E2D2F /* RYJCartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC632660C7BE004E2D2F /* RYJCartModel.swift */; };
+		C6D2AC6B2660CA20004E2D2F /* RYJCartDiscountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC682660CA20004E2D2F /* RYJCartDiscountView.swift */; };
+		C6D2AC6C2660CA20004E2D2F /* RYJCartListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC692660CA20004E2D2F /* RYJCartListView.swift */; };
+		C6D2AC6D2660CA20004E2D2F /* RYJCartSettlementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC6A2660CA20004E2D2F /* RYJCartSettlementView.swift */; };
+		C6D2AC762660D00B004E2D2F /* RYJCheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC752660D00B004E2D2F /* RYJCheckoutViewController.swift */; };
+		C6D2AC7F2660D3D5004E2D2F /* RYJCheckoutShipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC7D2660D3D5004E2D2F /* RYJCheckoutShipmentView.swift */; };
+		C6D2AC802660D3D5004E2D2F /* RYJCheckoutProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC7E2660D3D5004E2D2F /* RYJCheckoutProgressView.swift */; };
+		C6D2AC892660E3C3004E2D2F /* RYJSearchRecentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC872660E3C3004E2D2F /* RYJSearchRecentView.swift */; };
+		C6D2AC8A2660E3C3004E2D2F /* RYJSearchRankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC882660E3C3004E2D2F /* RYJSearchRankingView.swift */; };
+		C6D2AC9D2660E525004E2D2F /* RYJSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2AC9C2660E525004E2D2F /* RYJSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +66,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		151A1BEFDD83FB0C42B080D2 /* Pods-mall-mallUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mall-mallUITests.debug.xcconfig"; path = "Target Support Files/Pods-mall-mallUITests/Pods-mall-mallUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C91E84AB3FF0C8DB9FE04DA /* Pods-mall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mall.release.xcconfig"; path = "Target Support Files/Pods-mall/Pods-mall.release.xcconfig"; sourceTree = "<group>"; };
+		6451ED23D4A4F64584008BE4 /* Pods-mall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mall.debug.xcconfig"; path = "Target Support Files/Pods-mall/Pods-mall.debug.xcconfig"; sourceTree = "<group>"; };
+		8235C14432FC6E21CEEFFF84 /* Pods_mallTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mallTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB3C65E6D8AEE5496837F68 /* Pods-mallTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mallTests.release.xcconfig"; path = "Target Support Files/Pods-mallTests/Pods-mallTests.release.xcconfig"; sourceTree = "<group>"; };
 		C6968CE1265F9573009C7C4B /* mall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6968CE4265F9573009C7C4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6968CE6265F9573009C7C4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +86,37 @@
 		C6968D05265F9578009C7C4B /* mallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6968D09265F9578009C7C4B /* mallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mallUITests.swift; sourceTree = "<group>"; };
 		C6968D0B265F9578009C7C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6968D25265F993B009C7C4B /* RYJTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJTabBarController.swift; sourceTree = "<group>"; };
+		C6968D2B265F9FA1009C7C4B /* RYJBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJBaseViewController.swift; sourceTree = "<group>"; };
+		C6968D34265FA170009C7C4B /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C6968D39265FA3FA009C7C4B /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C6968D4D265FA86F009C7C4B /* RYJCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJCartViewController.swift; sourceTree = "<group>"; };
+		C6968D66265FAEEB009C7C4B /* RYJLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJLikeViewController.swift; sourceTree = "<group>"; };
+		C6968D79265FB07E009C7C4B /* RYJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJHomeViewController.swift; sourceTree = "<group>"; };
+		C6D2AC2226608B38004E2D2F /* LFFPraiseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFFPraiseButton.swift; sourceTree = "<group>"; };
+		C6D2AC2726608C2C004E2D2F /* RYJHomeBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJHomeBannerView.swift; sourceTree = "<group>"; };
+		C6D2AC2C26608E3D004E2D2F /* RYJHomeLikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJHomeLikeView.swift; sourceTree = "<group>"; };
+		C6D2AC3126608EBE004E2D2F /* RYJHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJHomeModel.swift; sourceTree = "<group>"; };
+		C6D2AC3826609104004E2D2F /* RYJDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJDetailViewController.swift; sourceTree = "<group>"; };
+		C6D2AC4226609510004E2D2F /* RYJDetailDescribeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJDetailDescribeView.swift; sourceTree = "<group>"; };
+		C6D2AC4326609510004E2D2F /* RYJDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJDetailHeaderView.swift; sourceTree = "<group>"; };
+		C6D2AC4A26609A85004E2D2F /* RYJShopModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJShopModel.swift; sourceTree = "<group>"; };
+		C6D2AC4F26609B20004E2D2F /* RYJShopAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJShopAPI.swift; sourceTree = "<group>"; };
+		C6D2AC5526609F11004E2D2F /* RYJRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJRefresh.swift; sourceTree = "<group>"; };
+		C6D2AC632660C7BE004E2D2F /* RYJCartModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJCartModel.swift; sourceTree = "<group>"; };
+		C6D2AC682660CA20004E2D2F /* RYJCartDiscountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJCartDiscountView.swift; sourceTree = "<group>"; };
+		C6D2AC692660CA20004E2D2F /* RYJCartListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJCartListView.swift; sourceTree = "<group>"; };
+		C6D2AC6A2660CA20004E2D2F /* RYJCartSettlementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJCartSettlementView.swift; sourceTree = "<group>"; };
+		C6D2AC752660D00B004E2D2F /* RYJCheckoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJCheckoutViewController.swift; sourceTree = "<group>"; };
+		C6D2AC7D2660D3D5004E2D2F /* RYJCheckoutShipmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJCheckoutShipmentView.swift; sourceTree = "<group>"; };
+		C6D2AC7E2660D3D5004E2D2F /* RYJCheckoutProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJCheckoutProgressView.swift; sourceTree = "<group>"; };
+		C6D2AC872660E3C3004E2D2F /* RYJSearchRecentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJSearchRecentView.swift; sourceTree = "<group>"; };
+		C6D2AC882660E3C3004E2D2F /* RYJSearchRankingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RYJSearchRankingView.swift; sourceTree = "<group>"; };
+		C6D2AC9C2660E525004E2D2F /* RYJSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYJSearchViewController.swift; sourceTree = "<group>"; };
+		DBA545524F1F72C68B5B34B0 /* Pods-mall-mallUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mall-mallUITests.release.xcconfig"; path = "Target Support Files/Pods-mall-mallUITests/Pods-mall-mallUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5D5ABB035D7DC241F55EFF9 /* Pods_mall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4D73C1EF00F2B8E69EAC9D /* Pods-mallTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mallTests.debug.xcconfig"; path = "Target Support Files/Pods-mallTests/Pods-mallTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F652DCB74BC0A3055745B208 /* Pods_mall_mallUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mall_mallUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55754966ADAD1C10416F98AB /* Pods_mall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54027F0A3B4E0F6D77D450EB /* Pods_mallTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +140,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3333149A204BE27F67466759 /* Pods_mall_mallUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		138B1C61FC4E9C1EC70BFFED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5D5ABB035D7DC241F55EFF9 /* Pods_mall.framework */,
+				F652DCB74BC0A3055745B208 /* Pods_mall_mallUITests.framework */,
+				8235C14432FC6E21CEEFFF84 /* Pods_mallTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B778807154FD56E33E3F573A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6451ED23D4A4F64584008BE4 /* Pods-mall.debug.xcconfig */,
+				1C91E84AB3FF0C8DB9FE04DA /* Pods-mall.release.xcconfig */,
+				151A1BEFDD83FB0C42B080D2 /* Pods-mall-mallUITests.debug.xcconfig */,
+				DBA545524F1F72C68B5B34B0 /* Pods-mall-mallUITests.release.xcconfig */,
+				EE4D73C1EF00F2B8E69EAC9D /* Pods-mallTests.debug.xcconfig */,
+				AEB3C65E6D8AEE5496837F68 /* Pods-mallTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C6968CD8265F9573009C7C4B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +177,8 @@
 				C6968CFD265F9577009C7C4B /* mallTests */,
 				C6968D08265F9578009C7C4B /* mallUITests */,
 				C6968CE2265F9573009C7C4B /* Products */,
+				B778807154FD56E33E3F573A /* Pods */,
+				138B1C61FC4E9C1EC70BFFED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +195,16 @@
 		C6968CE3265F9573009C7C4B /* mall */ = {
 			isa = PBXGroup;
 			children = (
-				C6968CE4265F9573009C7C4B /* AppDelegate.swift */,
-				C6968CE6265F9573009C7C4B /* SceneDelegate.swift */,
-				C6968CE8265F9573009C7C4B /* ViewController.swift */,
-				C6968CEA265F9573009C7C4B /* Main.storyboard */,
-				C6968CF0265F9577009C7C4B /* Assets.xcassets */,
-				C6968CF2265F9577009C7C4B /* LaunchScreen.storyboard */,
+				C6D2AC712660CFB7004E2D2F /* Checkout */,
+				C6D2AC36266090CC004E2D2F /* Detail */,
 				C6968CF5265F9577009C7C4B /* Info.plist */,
+				C6968D70265FB022009C7C4B /* Search */,
+				C6968D6C265FAFBB009C7C4B /* Resource */,
+				C6968D6B265FAF10009C7C4B /* System */,
+				C6968D65265FAE90009C7C4B /* Like */,
+				C6968D61265FAE5D009C7C4B /* Home */,
+				C6968D4C265FA84C009C7C4B /* Cart */,
+				C6968D33265FA114009C7C4B /* Extension */,
 				C6968CED265F9573009C7C4B /* mall.xcdatamodeld */,
 			);
 			path = mall;
@@ -131,6 +228,238 @@
 			path = mallUITests;
 			sourceTree = "<group>";
 		};
+		C6968D33265FA114009C7C4B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C6968D34265FA170009C7C4B /* UIColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C6968D4C265FA84C009C7C4B /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC622660C7A9004E2D2F /* View */,
+				C6D2AC612660C7A2004E2D2F /* Model */,
+				C6D2AC602660C799004E2D2F /* Controller */,
+				C6968D4D265FA86F009C7C4B /* RYJCartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		C6968D61265FAE5D009C7C4B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC2126608AED004E2D2F /* View */,
+				C6D2AC2026608AE5004E2D2F /* Model */,
+				C6D2AC3126608EBE004E2D2F /* RYJHomeModel.swift */,
+				C6968D81265FB0CF009C7C4B /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C6968D65265FAE90009C7C4B /* Like */ = {
+			isa = PBXGroup;
+			children = (
+				C6968D66265FAEEB009C7C4B /* RYJLikeViewController.swift */,
+			);
+			path = Like;
+			sourceTree = "<group>";
+		};
+		C6968D6B265FAF10009C7C4B /* System */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC5426609EED004E2D2F /* Refresh */,
+				C6D2AC4926609A78004E2D2F /* Network */,
+				C6968CE4265F9573009C7C4B /* AppDelegate.swift */,
+				C6968CE6265F9573009C7C4B /* SceneDelegate.swift */,
+				C6968CE8265F9573009C7C4B /* ViewController.swift */,
+				C6968D25265F993B009C7C4B /* RYJTabBarController.swift */,
+				C6968D2B265F9FA1009C7C4B /* RYJBaseViewController.swift */,
+				C6968D39265FA3FA009C7C4B /* Global.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		C6968D6C265FAFBB009C7C4B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C6968CEA265F9573009C7C4B /* Main.storyboard */,
+				C6968CF0265F9577009C7C4B /* Assets.xcassets */,
+				C6968CF2265F9577009C7C4B /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C6968D70265FB022009C7C4B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC862660E2CA004E2D2F /* Model */,
+				C6D2AC852660E2C4004E2D2F /* View */,
+				C6D2AC842660E2B1004E2D2F /* Controller */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C6968D81265FB0CF009C7C4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6968D79265FB07E009C7C4B /* RYJHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6D2AC2026608AE5004E2D2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6D2AC2126608AED004E2D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC2C26608E3D004E2D2F /* RYJHomeLikeView.swift */,
+				C6D2AC2226608B38004E2D2F /* LFFPraiseButton.swift */,
+				C6D2AC2726608C2C004E2D2F /* RYJHomeBannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6D2AC36266090CC004E2D2F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC4126609406004E2D2F /* View */,
+				C6D2AC40266093FF004E2D2F /* Model */,
+				C6D2AC37266090F0004E2D2F /* Controller */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C6D2AC37266090F0004E2D2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC3826609104004E2D2F /* RYJDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6D2AC40266093FF004E2D2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6D2AC4126609406004E2D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC4226609510004E2D2F /* RYJDetailDescribeView.swift */,
+				C6D2AC4326609510004E2D2F /* RYJDetailHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6D2AC4926609A78004E2D2F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC4A26609A85004E2D2F /* RYJShopModel.swift */,
+				C6D2AC4F26609B20004E2D2F /* RYJShopAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C6D2AC5426609EED004E2D2F /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC5526609F11004E2D2F /* RYJRefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		C6D2AC602660C799004E2D2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6D2AC612660C7A2004E2D2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC632660C7BE004E2D2F /* RYJCartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6D2AC622660C7A9004E2D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC682660CA20004E2D2F /* RYJCartDiscountView.swift */,
+				C6D2AC692660CA20004E2D2F /* RYJCartListView.swift */,
+				C6D2AC6A2660CA20004E2D2F /* RYJCartSettlementView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6D2AC712660CFB7004E2D2F /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC742660CFD6004E2D2F /* Model */,
+				C6D2AC732660CFCE004E2D2F /* View */,
+				C6D2AC722660CFC5004E2D2F /* Controller */,
+			);
+			path = Checkout;
+			sourceTree = "<group>";
+		};
+		C6D2AC722660CFC5004E2D2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC752660D00B004E2D2F /* RYJCheckoutViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6D2AC732660CFCE004E2D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC7E2660D3D5004E2D2F /* RYJCheckoutProgressView.swift */,
+				C6D2AC7D2660D3D5004E2D2F /* RYJCheckoutShipmentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6D2AC742660CFD6004E2D2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6D2AC842660E2B1004E2D2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC9C2660E525004E2D2F /* RYJSearchViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C6D2AC852660E2C4004E2D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2AC882660E3C3004E2D2F /* RYJSearchRankingView.swift */,
+				C6D2AC872660E3C3004E2D2F /* RYJSearchRecentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C6D2AC862660E2CA004E2D2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +467,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6968D0E265F9578009C7C4B /* Build configuration list for PBXNativeTarget "mall" */;
 			buildPhases = (
+				588E89E57CDC8C82F476A145 /* [CP] Check Pods Manifest.lock */,
 				C6968CDD265F9573009C7C4B /* Sources */,
 				C6968CDE265F9573009C7C4B /* Frameworks */,
 				C6968CDF265F9573009C7C4B /* Resources */,
+				54D3348299F9762422779100 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +486,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6968D11265F9578009C7C4B /* Build configuration list for PBXNativeTarget "mallTests" */;
 			buildPhases = (
+				3EE31E9D2E051B9424023A98 /* [CP] Check Pods Manifest.lock */,
 				C6968CF6265F9577009C7C4B /* Sources */,
 				C6968CF7265F9577009C7C4B /* Frameworks */,
 				C6968CF8265F9577009C7C4B /* Resources */,
@@ -173,9 +505,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6968D14265F9578009C7C4B /* Build configuration list for PBXNativeTarget "mallUITests" */;
 			buildPhases = (
+				1E213DFC035563F43B107656 /* [CP] Check Pods Manifest.lock */,
 				C6968D01265F9578009C7C4B /* Sources */,
 				C6968D02265F9578009C7C4B /* Frameworks */,
 				C6968D03265F9578009C7C4B /* Resources */,
+				55B92CAC567E811860BA1055 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +590,145 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E213DFC035563F43B107656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mall-mallUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EE31E9D2E051B9424023A98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mallTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54D3348299F9762422779100 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mall/Pods-mall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mall/Pods-mall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mall/Pods-mall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55B92CAC567E811860BA1055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mall-mallUITests/Pods-mall-mallUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mall-mallUITests/Pods-mall-mallUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mall-mallUITests/Pods-mall-mallUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588E89E57CDC8C82F476A145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6968CDD265F9573009C7C4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6968D3A265FA3FA009C7C4B /* Global.swift in Sources */,
+				C6D2AC4526609510004E2D2F /* RYJDetailHeaderView.swift in Sources */,
+				C6D2AC3926609104004E2D2F /* RYJDetailViewController.swift in Sources */,
 				C6968CE9265F9573009C7C4B /* ViewController.swift in Sources */,
+				C6D2AC5026609B20004E2D2F /* RYJShopAPI.swift in Sources */,
+				C6D2AC5626609F11004E2D2F /* RYJRefresh.swift in Sources */,
+				C6D2AC9D2660E525004E2D2F /* RYJSearchViewController.swift in Sources */,
+				C6D2AC2326608B38004E2D2F /* LFFPraiseButton.swift in Sources */,
+				C6D2AC6B2660CA20004E2D2F /* RYJCartDiscountView.swift in Sources */,
+				C6D2AC802660D3D5004E2D2F /* RYJCheckoutProgressView.swift in Sources */,
+				C6D2AC892660E3C3004E2D2F /* RYJSearchRecentView.swift in Sources */,
+				C6968D35265FA170009C7C4B /* UIColorExtension.swift in Sources */,
+				C6968D2C265F9FA1009C7C4B /* RYJBaseViewController.swift in Sources */,
+				C6D2AC762660D00B004E2D2F /* RYJCheckoutViewController.swift in Sources */,
+				C6968D67265FAEEB009C7C4B /* RYJLikeViewController.swift in Sources */,
 				C6968CE5265F9573009C7C4B /* AppDelegate.swift in Sources */,
+				C6D2AC8A2660E3C3004E2D2F /* RYJSearchRankingView.swift in Sources */,
+				C6D2AC7F2660D3D5004E2D2F /* RYJCheckoutShipmentView.swift in Sources */,
+				C6D2AC6D2660CA20004E2D2F /* RYJCartSettlementView.swift in Sources */,
+				C6968D26265F993B009C7C4B /* RYJTabBarController.swift in Sources */,
+				C6D2AC6C2660CA20004E2D2F /* RYJCartListView.swift in Sources */,
+				C6D2AC2826608C2C004E2D2F /* RYJHomeBannerView.swift in Sources */,
+				C6D2AC2D26608E3E004E2D2F /* RYJHomeLikeView.swift in Sources */,
+				C6D2AC4B26609A85004E2D2F /* RYJShopModel.swift in Sources */,
 				C6968CE7265F9573009C7C4B /* SceneDelegate.swift in Sources */,
+				C6D2AC3226608EBE004E2D2F /* RYJHomeModel.swift in Sources */,
+				C6D2AC4426609510004E2D2F /* RYJDetailDescribeView.swift in Sources */,
+				C6968D4E265FA86F009C7C4B /* RYJCartViewController.swift in Sources */,
 				C6968CEF265F9573009C7C4B /* mall.xcdatamodeld in Sources */,
+				C6D2AC642660C7BE004E2D2F /* RYJCartModel.swift in Sources */,
+				C6968D7A265FB07E009C7C4B /* RYJHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +901,7 @@
 		};
 		C6968D0F265F9578009C7C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6451ED23D4A4F64584008BE4 /* Pods-mall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +921,7 @@
 		};
 		C6968D10265F9578009C7C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C91E84AB3FF0C8DB9FE04DA /* Pods-mall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +941,7 @@
 		};
 		C6968D12265F9578009C7C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4D73C1EF00F2B8E69EAC9D /* Pods-mallTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +964,7 @@
 		};
 		C6968D13265F9578009C7C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB3C65E6D8AEE5496837F68 /* Pods-mallTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +987,7 @@
 		};
 		C6968D15265F9578009C7C4B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151A1BEFDD83FB0C42B080D2 /* Pods-mall-mallUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +1008,7 @@
 		};
 		C6968D16265F9578009C7C4B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBA545524F1F72C68B5B34B0 /* Pods-mall-mallUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

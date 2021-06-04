@@ -1,0 +1,6 @@
+framework module Pods_mall {
+  umbrella header "Pods-mall-umbrella.h"
+
+  export *
+  module * { export * }
+}
